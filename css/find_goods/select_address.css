@@ -1,0 +1,29 @@
+html,body{
+	background-color: #efefef;
+}
+.select-address-container .goods-address-item{
+    display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 1.2rem;
+}
+.goods-address-item{
+	background-color: #fff;
+}
+.select-address-container .goods-address-item:not(:first-child){
+	margin-top: 0.8rem;
+}
+.address-user-info{
+	color: #333;
+	font-size: 1.4rem;
+}
+.address-detail-info{
+	color: #777;
+	font-size: 1.4rem;
+}
+.default-address-tip{
+	color: #4395f7;
+}
